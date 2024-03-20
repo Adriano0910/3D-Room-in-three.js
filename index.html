@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="css.css">
+		<title>Pokoj_Adrian_Stańczak</title>
+		<style type="text/css">
+			body { margin: 0; overflow: hidden; }
+			canvas { width: 100%; height: 100%; }
+		</style>
+	</head>
+	<body>
+		<div id="controls">
+			<div>
+			  <p>Panel Kontrolny<br>
+				Oświetlenia Pokoju </p>
+			  <input type="button" value="Ambient" id="ambient-light" class="inactive" title="Ambient light on/off">
+			  <br>
+			  <input type="button" value="Lampka" id="spot-light" class="inactive" title="Spot light on/off">
+			  <br>
+			  <input type="button" value="Główne Swiatło Lewe" id="point-light" class="active" title="Point light on/off">
+			  <br>
+			  <input type="button" value="Główne Swiatło Prawe" id="point-light-1" class="active" title="Point light on/off">
+			  <br>
+			  <input type="button" value="Światło zewnętrzne" id="point-light-z" class="inactive" title="Point light on/off">
+			</div>
+		  </div>
+		<script type="text/javascript" src="js/three.js"></script>
+		<script type="text/javascript" src="js/OrbitControls.js"></script>
+		<script type="text/javascript" src="pokoj.js"></script>
+	</body>
+</html>
